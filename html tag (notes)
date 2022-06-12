@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<!-- type ! to embed the default code -->
+<!--TAGS IN HTML NOTES-->
+1.<html></html> - main html tag
+2.<p></p>- paragraph tag
+3.<title></title>- title tag
+4.<body></body>- body tag
+5.Use <!-- commenting out syntax--> click control+slash for commenting out after seleting the text
+6.<h1></h1>,<h2></h2>.....<h6></h6>... differs in size and importance
+7.<a href="...">display</a>- anchor tag - that add links to the page  , to add the link from same folder syntax: <a href="/web link">okay</a>
+ <a href="..." targer="_main"></a>
+8.<br />- breaks the line or newline
+9.<img src="image address" alt="Random IMage"> - inserts image to the webpage, --> src=souce , alt= gives the alternate name when image doesnt get loaded 
+10. link used directly from browser is "Absolute url"
+11.Links used from same folder is "Relative url" , which is used with a slash "/".
+12. <b></b>, <i></i> ,<u></u>u> - bold , italic , underline
+13.<big></big> - big text , <small>for small text</small>
+14. <hr> - horizontal ruler - inserts a line between two lines
+15.<sub></sub> - subscript
+16. we use <pre></pre> tag if we want to count spaces and newline in paragraph instead of paragraph.
+
+*****************************************************************
+SEMANTIC TAGS                            NON SEMANTIC TAGS
+whose name cleary mentions its use ,     Name is not related to the tag's usage
+p , a ,                                  <div>Occupies the space of whole line</div> , <span>Occupies only required space</span>
+                                         block tags                                     inlne tags
+BEtter to use semantic than using non semantic one
+*****************************************************************
+17.<header></header> and <footer></footer> for header and footer
+18.It is advisable to create sections in main using <main></main> and <section></section> tags 
+19.<aside></aside> that seo doesnt read , used for the text that is not the part of main section. 
+20.<article></article> for inserting <article></article>
+21. Target="_main" , in <a href> used to open the link in next tab keeping the previous one intact.
+22. Click the image , <a href="link"><img src="link of image">
+23.div tag - it is a comtainer for other html elements , it is a block element that occpies whole width of line 
+NOTE : when more elements are to be changed(like bg colour) in the same manner we use div tag
+24. span tag - where only required space is used 
+25. To display the data in the form of lists ....................... 
+        Unordered                |              Ordered
+        In the form of books                    In the form of numbers
+        <ul> </ul>                              <ol></ol>
+        <li></li> list element                   <li>list element</li>
+
+26. TABLES IN <HTML></HTML> 
+    <table>table tag , table creation starts from here</table>
+    <caption>caption , info about the table content</caption>
+    <th>table header tag</th> , <th colspan="number of columns having common header name"></th>
+    <tr>table row tag</tr>
+    <td>table data tag</td>
+    <thead>table head</thead>
+    <tbody>table body</tbody>
+27. FORMS IN <HTML></HTML>
+    <form action="file name collecting the data">collects the data from user </form>
+
+    FORM ELEMENTS:
+    <INPUT TYPE="text" placeholder="Username"></INPUT>
+    <input type="password" placeholder="Password"></input>
